@@ -6,6 +6,8 @@ This Chrome extension allows you to inject ChatGPT into Bing's sidebar, making i
 
 > This project learn from https://github.com/wong2/chat-gpt-google-extension
 
+![preview](./screenshot.png)
+
 ## Installation
 
 To install ChatGPT for Bing, follow these steps:
