@@ -29,9 +29,5 @@ async function main(question) {
 
 const searchInput = document.getElementsByName("q")[0];
 if (searchInput && searchInput.value) {
-  // only run on first page
-  const startParam = new URL(location.href).searchParams.get("start") || "0";
-  if (startParam === "0") {
-    main(searchInput.value);
-  }
+  main(searchInput.value);
 }
