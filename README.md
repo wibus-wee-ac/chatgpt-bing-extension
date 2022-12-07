@@ -1,5 +1,7 @@
 # ChatGPT for Bing
 
+English | [简体中文 (WIP)](README.zh-CN.md)
+
 This Chrome extension allows you to inject ChatGPT into Bing's sidebar, making it easy to have a conversation with the powerful language model right on Bing's search page. With ChatGPT for Bing, you can ask ChatGPT questions and get answers without ever leaving the Bing search page.
 
 > This project learn from https://github.com/wong2/chat-gpt-google-extension
@@ -8,10 +10,19 @@ This Chrome extension allows you to inject ChatGPT into Bing's sidebar, making i
 
 To install ChatGPT for Bing, follow these steps:
 
+### Chrome Local Installation
+
 1. Download the extension from Release.
 2. Open the Chrome browser on your computer and go to the extensions page by typing "chrome://extensions" in the address bar and pressing Enter.
 3. Open "Debug Mode"
 4. Drag and drop the downloaded extension file onto the extensions page to install it.
+
+### Firefox Local Installation
+
+1. Download the extension from Release.
+2. Open the Firefox browser on your computer and go to the extensions page by typing "about:debugging" in the address bar and pressing Enter.
+3. Click "This Firefox" (in newer versions of Firefox), or "Load Temporary Add-on" and select any file in your extension's directory.
+4. The extension will now be installed.
 
 ## Usage
 
@@ -36,7 +47,14 @@ Once you have installed ChatGPT for Bing, you can use it by following these step
 
 ## Support
 
-If you have any questions or need help using ChatGPT for Bing, please contact me at wibus@qq.com. I will be happy to assist you.
+If you have any questions or need help using ChatGPT for Bing, please contact me in GitHub Issues.
+
+## Credits
+
+- [ChatGPT](https://chat.openai.com/) - The powerful language model.
+- [Bing](https://www.bing.com/) - The search engine.
+- [wong2/chat-gpt-google-extension](https://github.com/wong2/chat-gpt-google-extension) - The inspiration for this project.
+- [sonnylazuardi/chatgpt-desktop](https://github.com/sonnylazuardi/chatgpt-desktop) - The logo for this project.
 
 ## Author
 
