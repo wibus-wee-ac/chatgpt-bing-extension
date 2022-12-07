@@ -1,0 +1,41 @@
+name: Release CI
+on:
+  release:
+    types: [created]
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - run: npm install
+      - run: npm run build
+
+      - name: Get Release Version
+        id: get_release_version
+        run: echo ::set-output name=VERSION::${GITHUB_REF#refs/*/}
+
+      - name: Upload Release Asset
+        id: upload-release-asset-chromium
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ github.event.release.upload_url }}
+          asset_path: ./build/chromium.zip
+          asset_name: chromium.zip
+          asset_content_type: application/zip
+        
+      - name: Upload Release Asset
+        id: upload-release-asset-firefox
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ github.event.release.upload_url }}
+          asset_path: ./build/firefox.zip
+          asset_name: firefox.zip
+          asset_content_type: application/zip
