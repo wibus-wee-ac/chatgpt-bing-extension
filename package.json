@@ -1,0 +1,22 @@
+{
+  "name": "chatgpt-bing-extension",
+  "version": "1.0.0",
+  "description": "",
+  "main": "background.js",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "author": "wibus <wibus@qq.com>",
+  "devDependencies": {
+    "archiver": "^5.3.1",
+    "esbuild": "^0.16.1",
+    "eventsource-parser": "^0.0.5",
+    "expiry-map": "^2.0.0",
+    "markdown-it": "^13.0.1",
+    "punycode": "^2.1.1",
+    "uuid": "^9.0.0"
+  },
+  "dependencies": {
+    "webextension-polyfill": "^0.10.0"
+  }
+}
