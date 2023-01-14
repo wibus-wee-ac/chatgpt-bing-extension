@@ -9,7 +9,7 @@
   "author": "wibus <wibus@qq.com>",
   "devDependencies": {
     "archiver": "^5.3.1",
-    "esbuild": "^0.16.1",
+    "esbuild": "^0.17.0",
     "eventsource-parser": "^0.0.5",
     "expiry-map": "^2.0.0",
     "markdown-it": "^13.0.1",
