@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   archiver: ^5.3.1
   esbuild: ^0.16.1
-  eventsource-parser: ^0.0.5
+  eventsource-parser: ^0.1.0
   expiry-map: ^2.0.0
   markdown-it: ^13.0.1
   punycode: ^2.1.1
@@ -16,7 +16,7 @@ dependencies:
 devDependencies:
   archiver: 5.3.1
   esbuild: 0.16.1
-  eventsource-parser: 0.0.5
+  eventsource-parser: 0.1.0
   expiry-map: 2.0.0
   markdown-it: 13.0.1
   punycode: 2.1.1
@@ -372,9 +372,9 @@ packages:
       '@esbuild/win32-x64': 0.16.1
     dev: true
 
-  /eventsource-parser/0.0.5:
-    resolution: {integrity: sha512-BAq82bC3ZW9fPYYZlofXBOAfbpmDzXIOsj+GOehQwgTUYsQZ6HtHs6zuRtge7Ph8OhS6lNH1kJF8q9dj17RcmA==}
-    engines: {node: '>=12'}
+  /eventsource-parser/0.1.0:
+    resolution: {integrity: sha512-M9QjFtEIkwytUarnx113HGmgtk52LSn3jNAtnWKi3V+b9rqSfQeVdLsaD5AG/O4IrGQwmAAHBIsqbmURPTd2rA==}
+    engines: {node: '>=14.18'}
     dev: true
 
   /expiry-map/2.0.0:

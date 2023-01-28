@@ -10,7 +10,7 @@
   "devDependencies": {
     "archiver": "^5.3.1",
     "esbuild": "^0.16.1",
-    "eventsource-parser": "^0.0.5",
+    "eventsource-parser": "^0.1.0",
     "expiry-map": "^2.0.0",
     "markdown-it": "^13.0.1",
     "punycode": "^2.1.1",
